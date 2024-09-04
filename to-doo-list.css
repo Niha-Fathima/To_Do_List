@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightgreen;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 1em rgba(0, 0, 0, 0.3);
+  border-radius: 0.8em;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: cadetblue;
+  text-align: center; /* Center the heading */
+}
+
+#task {
+  width: 80%;
+  background-color: rgb(233, 236, 227);
+  padding: 20px;
+  font-size: 18px;
+  border: 2px solid #9e0a0a;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#add-task-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: goldenrod;
+  color: black;
+  border: 2px solid #9e0a0a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#add-task-btn:hover {
+  background-color: #ffd55c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: pink;
+  font-weight: bolder;
+}
+
+th, td {
+  border: 2px solid #9e0a0a;
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #b9dd16;
+  font-weight: bold;
+}
+
+tr {
+  background-color: pink;
+}
+
+tr:hover {
+  background-color: pink; /* Remove hover effect from table rows */
+}
+
+.High {
+  color: red;
+  font-size: larger;
+}
+
+.Medium {
+  color: rgb(255, 166, 0);
+  font-size: larger;
+}
+
+.Low {
+  color: rgb(2, 71, 2);
+  font-size: larger;
+}
+
+#text1, #text2 {
+  font-size: x-large;
+  font-weight: bolder;
+  color: coral;
+}
+
+.edit-task, .delete-task {
+  border-radius: 12px; /* Rounded edges */
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bolder;
+  color: white;
+  border: 2px solid;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Ensure transition is applied */
+}
+
+.edit-task {
+  background-color: blue;
+  border-color: blue;
+}
+
+.edit-task:hover {
+  background-color: white;
+  color: blue;
+  border-color: blue;
+}
+
+.delete-task {
+  background-color: red;
+  border-color: red;
+}
+
+.delete-task:hover {
+  background-color: white;
+  color: red;
+  border-color: red;
+}
